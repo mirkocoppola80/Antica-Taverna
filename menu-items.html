@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ristorante Antica Taverna - I sapori della cucina toscana. Qui potrete assaggioare piatti tipici toscani fatti come dice la tradizione culinaria.">
+    <meta name="keywords" content="cucina toscana, ristoranti a firenze, ristoranti tipici, taverna toscana">
+    <title>Ristorante Antica Taverna - I sapori della cucina Toscana</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Cantata+One" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+        <div id="info" class="container">
+          <p class="text-left pull-left">Aperto: <br class="visible-xs"><span>Dal Martedì alla Domenica dalle 19 alle 01</span></p>
+          <p class="text-right hidden-xs">Prenotazioni: <a href="tel:055256801"><span>055-663399</span></a></p>
+      </div>
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left hidden-xs">
+            <div id="logo-img" alt="Logo image"></div>
+          </a>
+
+          <div class="navbar-brand visible-xs">
+            <a href="index.html"><h1>Ristorante Antica Taverna</h1></a>
+          </div>
+
+          <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li id="navHomeButton" class="visible-xs">
+              <a href="index.html">
+                <i class="fa fa-home" aria-hidden="true"></i> Home</a>
+            </li>
+            <li id="navMenuButton" class="active">
+              <a href="menu-items.html">
+                <i class="fa fa-cutlery" aria-hidden="true"></i><br class="hidden-xs"> Menu</a>
+            </li>
+            <li>
+              <a href="gallery.html">
+                <i class="fa fa-picture-o" aria-hidden="true"></i><br class="hidden-xs"> Galleria</a>
+            </li>
+            <li>
+              <a href="contact.php">
+                <i class="fa fa-envelope" aria-hidden="true"></i><br class="hidden-xs"> Contatti</a>
+            </li>
+           </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:055256801">
+    <span class="glyphicon glyphicon-earphone"></span>
+    055-256801
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">Per prenotare</div>
+
+  <div id="main-content" class="container">
+    <h1 class="text-center">Il Nostro Menù</h1>
+    <div>
+  <!-- Nav tabs -->
+
+        <ul class="nav nav-pills nav-justified" role="tablist">
+          <li role="presentation" class="active"><a href="#antipasti" aria-controls="antipasti" role="tab" data-toggle="pill">Antipasti</a></li>
+          <li role="presentation"><a href="#primi-piatti" aria-controls="primi-piatti" role="tab" data-toggle="pill">Primi Piatti</a></li>
+          <li role="presentation"><a href="#secondi-piatti" aria-controls="secondi-piatti" role="tab" data-toggle="pill">Secondi Piatti</a></li>
+          <li role="presentation"><a href="#contorni" aria-controls="contorni" role="tab" data-toggle="pill">Contorni</a></li>
+          <li role="presentation"><a href="#dessert" aria-controls="dessert" role="tab" data-toggle="pill">Dessert</a></li>
+          <li role="presentation"><a href="#bevande" aria-controls="bevande" role="tab" data-toggle="pill">Bevande</a></li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane fade in active" id="antipasti">
+            <div class="media">
+              <div class="media-left media-middle">
+                <img class="media-object" src="images/dishes/antipasti/affettati-misti.jpg" alt="Affettati misti">
+              </div>
+              <div class="media-body">
+                <h2 class="media-heading">Affettati Misti</h2>
+                <p>Piatto misto composto da: Prosciutto crudo della casa, salame toscano, finocchiona, lardo di colonnata e coppa.</p>
+                <p>Prezzo: <span class="badge">4.00 €</span></p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left media-middle">
+                <img class="media-object" src="images/dishes/antipasti/bruschetta-pomodoro.jpg" alt="Bruschetta col pomodoro">
+              </div>
+              <div class="media-body">
+                <h2 class="media-heading">Bruschetta al Pomodoro</h2>
+                <p>Fetta di pane abbrustolito cosparso da una salsa fatta da pomodori freschi, aglio e prezzemolo e un filo d'olio.</p>
+                <p>Prezzo: <span class="badge">2.00 €</span></p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left media-middle">
+                <img class="media-object" src="images/dishes/antipasti/crostini-toscani.jpg" alt="Crostini toscani">
+              </div>
+              <div class="media-body">
+                <h2 class="media-heading">Crostini Toscani</h2>
+                <p>Fette di pane "Frusta" con sopra un paté di fegatini di pollo fatto in casa.</p>
+                <p>Prezzo: <span class="badge">3.00 €</span></p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left media-middle">
+                <img class="media-object" src="images/dishes/antipasti/panzanella.jpg" alt="Panzanella">
+              </div>
+              <div class="media-body">
+                <h2 class="media-heading">Panzanella</h2>
+                <p>Insalata estiva fatta da pomodori freschi, cetrioli, lattuga, cipolla, basilico e pane raffermo ammorbidito nell'acqua.</p>
+                <p>Prezzo: <span class="badge">4.00 €</span></p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left media-middle">
+                <img class="media-object" src="images/dishes/antipasti/pappa-pomodoro.jpg" alt="Pappa col pomodoro">
+              </div>
+              <div class="media-body">
+                <h2 class="media-heading">Pappa col Pomodoro</h2>
+                <p>Zuppa di pomodori e pane raffermo, fatti bollire con aglio e basilico.</p>
+                <p>Prezzo: <span class="badge">3.00 €</span></p>
+              </div>
+            </div>
+          </div> <!-- END TAB PANEL ANTIPASTI -->
+
+          <div role="tabpanel" class="tab-pane fade" id="primi-piatti">
+            <div class="media">
+              <div class="media-left media-middle">
+                <img class="media-object" src="images/dishes/primi-piatti/lasagne.jpg" alt="Lasagne">
+              </div>
+              <div class="media-body">
+                <h2 class="media-heading">Lasagne</h2>
+                <p>Strati di sfoglia di pasta fatta in casa condita da un ragù altrettanto fatto in casa.</p>
+                <p>Prezzo: <span class="badge">9.00 €</span></p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left media-middle">
+                <img class="media-object" src="images/dishes/primi-piatti/pici-cacio-pepe.jpg" alt="Pici cacio e pepe">
+              </div>
+              <div class="media-body">
+                <h2 class="media-heading">Pici Cacio e Pepe</h2>
+                <p>Pasta fatta in casa saltata con formaggio pecorino senese e pepe nero.</p>
+                <p>Prezzo: <span class="badge">6.00 €</span></p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left media-middle">
+                <img class="media-object" src="images/dishes/primi-piatti/ribollita.jpg" alt="Ribollita">
+              </div>
+              <div class="media-body">
+                <h2 class="media-heading">Ribollita</h2>
+                <p>Zuppa di verdure di stagione, fagioli, patate e pane raffermo.</p>
+                <p>Prezzo: <span class="badge">7.00 €</span></p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left media-middle">
+                <img class="media-object" src="images/dishes/primi-piatti/tagliatelle-porcini.jpg" alt="Tagliatelle ai funghi porcini">
+              </div>
+              <div class="media-body">
+                <h2 class="media-heading">Tagliatelle ai funghi porcini</h2>
+                <p>Tagliatelle fatte in casa con sugo di funghi porcini saltati con olio, aglio e prezzemolo.</p>
+                <p>Prezzo: <span class="badge">10.00 €</span></p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left media-middle">
+                <img class="media-object" src="images/dishes/primi-piatti/tagliatelle-ragu.jpg" alt="Tagliatelle al ragù">
+              </div>
+              <div class="media-body">
+                <h2 class="media-heading">Tagliatelle al Ragù</h2>
+                <p>Tagliatelle fatte in casa con ragù di chianina.</p>
+                <p>Prezzo: <span class="badge">9.00 €</span></p>
+              </div>
+            </div>
+          </div> <!-- END TAB PANEL PRIMI PIATTI-->
+          <div role="tabpanel" class="tab-pane fade" id="secondi-piatti">
+            <div class="media">
+              <div class="media-left media-middle">
+                <img class="media-object" src="images/dishes/secondi-piatti/bistecca-alla-fiorentina.jpg" alt="Bistecca alla fiorentina">
+              </div>
+              <div class="media-body">
+                <h2 class="media-heading">Bistecca alla Fiorentina</h2>
+                <p>Bistecca di manzo tipo "Chianina" alta almeno 3 dita. Minimo taglio 1 Kg.</p>
+                <p>Prezzo: <span class="badge">18.00 € / KG</span></p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left media-middle">
+                <img class="media-object" src="images/dishes/secondi-piatti/filetto-maiale-salsa-funghi.jpg" alt="Filetto di maiale in salsa di funghi">
+              </div>
+              <div class="media-body">
+                <h2 class="media-heading">Filetto di Maiale in Salsa di Funghi</h2>
+                <p>Tenero filetto di maiale cotto in padella con un trito d'aglio, funghi e crema di latte.</p>
+                <p>Prezzo: <span class="badge">10.00 €</span></p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left media-middle">
+                <img class="media-object" src="images/dishes/secondi-piatti/grigliata.jpg" alt="Grigliata mista">
+              </div>
+              <div class="media-body">
+                <h2 class="media-heading">Grigliata Mista</h2>
+                <p>Grigliata di carne con salsicce della casa, bistecca, pollo e scamerita.</p>
+                <p>Prezzo: <span class="badge">9.00 €</span></p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left media-middle">
+                <img class="media-object" src="images/dishes/secondi-piatti/pollo-cacciatora.jpg" alt="Pollo alla cacciatora">
+              </div>
+              <div class="media-body">
+                <h2 class="media-heading">Pollo alla Cacciatora</h2>
+                <p>Pollo cotto in pentola con pomodori, olive e spezie verie.</p>
+                <p>Prezzo: <span class="badge">9.00 €</span></p>
+              </div>
+            </div>
+          </div> <!-- END TAB PANEL -->
+          <div role="tabpanel" class="tab-pane fade" id="contorni">
+            <div class="media">
+              <div class="media-left media-middle">
+                <img class="media-object" src="images/dishes/contorni/fagioli-uccelletto.jpg" alt="Fagioli all'uccelletto">
+              </div>
+              <div class="media-body">
+                <h2 class="media-heading">Fagioli all'Uccelletto</h2>
+                <p>Fagioli in padella con pomodoro, aglio e alloro.</p>
+                <p>Prezzo: <span class="badge">3.00 €</span></p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left media-middle">
+                <img class="media-object" src="images/dishes/contorni/insalata-mista.jpg" alt="Insalata mista">
+              </div>
+              <div class="media-body">
+                <h2 class="media-heading">Insalata Mista</h2>
+                <p>Insalata mista di lattuga, pomodori e cetrioli.</p>
+                <p>Prezzo: <span class="badge">2.00 €</span></p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left media-middle">
+                <img class="media-object" src="images/dishes/contorni/insalata-patate.jpg" alt="Insalata di patate">
+              </div>
+              <div class="media-body">
+                <h2 class="media-heading">Insalata di Patate</h2>
+                <p>Insalata di patate lesse con aggiunta di cipolla e prezzemolo.</p>
+                <p>Prezzo: <span class="badge">3.00 €</span></p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left media-middle">
+                <img class="media-object" src="images/dishes/contorni/patate-forno.jpg" alt="Patate al forno">
+              </div>
+              <div class="media-body">
+                <h2 class="media-heading">Patate al Forno</h2>
+                <p>Patate al forno marinate con olio, aglio e rosmarino.</p>
+                <p>Prezzo: <span class="badge">3.00 €</span></p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left media-middle">
+                <img class="media-object" src="images/dishes/contorni/verdure-grigliate.jpg" alt="Verdure grigliate">
+              </div>
+              <div class="media-body">
+                <h2 class="media-heading">Verdure Grigliate</h2>
+                <p>Patate, zucchine, melanzane al forno marinate con olio menta e basilico.</p>
+                <p>Prezzo: <span class="badge">4.00 €</span></p>
+              </div>
+            </div>
+          </div> <!-- END TAB PANEL -->
+          <div role="tabpanel" class="tab-pane fade" id="dessert">
+            <div class="media">
+              <div class="media-left media-middle">
+                <img class="media-object" src="images/dishes/dessert/pannacotta.jpg" alt="Pannacotta">
+              </div>
+              <div class="media-body">
+                <h2 class="media-heading">PannaCotta</h2>
+                <p>Dessert tipo budino fatto di panna, latte e zucchero con aggiunta a piacere di salsa ai frutti di bosco.</p>
+                <p>Prezzo: <span class="badge">4.00 €</span></p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left media-middle">
+                <img class="media-object" src="images/dishes/dessert/tiramisu.jpg" alt="Tiramisu">
+              </div>
+              <div class="media-body">
+                <h2 class="media-heading">Tiramisù</h2>
+                <p>Dolce al cucchiaio fatto di strati di biscotti Pavesini e crema di mascarpone, ricoperto in cima da cacao in polvere.</p>
+                <p>Prezzo: <span class="badge">5.00 €</span></p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left media-middle">
+                <img class="media-object" src="images/dishes/dessert/torta-nonna.jpg" alt="Torta della Nonna">
+              </div>
+              <div class="media-body">
+                <h2 class="media-heading">Torta della Nonna</h2>
+                <p>Torta tipica di pasta frolla ripiena di crema pasticcera e mandorle.</p>
+                <p>Prezzo: <span class="badge">5.00 €</span></p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left media-middle">
+                <img class="media-object" src="images/dishes/dessert/tortino-cioccolato.jpg" alt="Tortino al cioccolato">
+              </div>
+              <div class="media-body">
+                <h2 class="media-heading">Tortino al Cioccolato</h2>
+                <p>Tortino di cioccolato con morbido interno di cioccolato fondente e ricoperto di zucchero a velo.</p>
+                <p>Prezzo: <span class="badge">4.00 €</span></p>
+              </div>
+            </div>
+          </div> <!-- END TAB PANEL -->
+          <div role="tabpanel" class="tab-pane fade" id="bevande">
+            <div class="media">
+              <div class="media-left media-middle">
+                <img class="media-object" src="images/dishes/bevande/chianti-fatt-poggio-romita.jpg" alt="Vino Chianti - Fattoria Poggio alla Romita">
+              </div>
+              <div class="media-body">
+                <h2 class="media-heading">Vino Rosso Chianti - Poggio Romita</h2>
+                <p>Fattoria Poggio alla Romita, Anno: 0000.</p>
+                <p>Prezzo: <span class="badge">8.00 €</span></p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left media-middle">
+                <img class="media-object" src="images/dishes/bevande/chianti-petriolo.jpg" alt="Vino rosso Chianti  Petriolo">
+              </div>
+              <div class="media-body">
+                <h2 class="media-heading">Vino Rosso Chianti - Petriolo</h2>
+                <p>Petriolo, Anno: 0000.</p>
+                <p>Prezzo: <span class="badge">9.00 €</span></p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left media-middle">
+                <img class="media-object" src="images/dishes/bevande/chianti-poggio-al-chiuso.jpg" alt="Vino Rosso Chianti - Poggio al Chiuso">
+              </div>
+              <div class="media-body">
+                <h2 class="media-heading">Vino Rosso Chianti - Poggio al Chiuso</h2>
+                <p>Poggio al Chiuso, Anno: 0000.</p>
+                <p>Prezzo: <span class="badge">7.00 €</span></p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left media-middle">
+                <img class="media-object" src="images/dishes/bevande/chianti-rufina.jpg" alt="Vino Rosso Chianti - Rufina">
+              </div>
+              <div class="media-body">
+                <h2 class="media-heading">Vino Rosso Chianti - Rufina</h2>
+                <p>Rufina, Anno: 0000.</p>
+                <p>Prezzo: <span class="badge">11.00 €</span></p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left media-middle">
+                <img class="media-object" src="images/dishes/bevande/acqua.jpg" alt="Acqua Naturale">
+              </div>
+              <div class="media-body">
+                <h2 class="media-heading">Acqua Naturale</h2>
+                <p>Bottiglia di acqua naturale, 1 lt.</p>
+                <p>Prezzo: <span class="badge">2.00 €</span></p>
+              </div>
+            </div>
+          </div> <!-- END TAB PANEL -->
+        </div>
+
+    </div>
+
+
+  </div>
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Orario:</span><br>
+          Mar-Dom: 19.00 - 01:00<br>
+          Lunedi Chiuso
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Indirizzo:</span><br>
+          Via de' boschi 4<br>
+          Scandicci, 50001
+          <p>* Consegnamo entro un raggio di 5 km, minimo d'ordine 15€, sovraprezzo di 3€ per ogni ordine.</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"Il miglior ristorante toscano, piatti tipici tradizionali e la fantastica simpatia del personale."</p>
+          <p>"Cibo buono e genuino, ambiente tranquillo che ti mette a tuo agio. Per passare qualche ora in relax e gustare prelibatezze."</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright Ristorante Antica Taverna 2016</div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>
